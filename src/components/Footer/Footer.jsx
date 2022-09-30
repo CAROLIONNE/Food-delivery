@@ -38,7 +38,7 @@ const Footer = () => {
             <h5 className="footer__title">Contact</h5>
             <ListGroup>
               <ListGroupItem className="delivery__time-item border-0 ps-0">
-                <p>Location:Rue la fayette, 75000 Paris</p>
+                <p>Location: Rue la fayette, 75000 Paris</p>
               </ListGroupItem>
               <ListGroupItem className="delivery__time-item border-0 ps-0">
                 <span>Phone: 0178526485</span>
