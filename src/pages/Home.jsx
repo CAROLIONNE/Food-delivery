@@ -9,14 +9,14 @@ import "../styles/home.css";
 import featuresImg01 from "../assets/images/service-01.png";
 import featuresImg02 from "../assets/images/service-02.png";
 import featuresImg03 from "../assets/images/service-03.png";
-
 import products from "../assets/fake-data/products";
 import foodCategoryImg01 from "../assets/images/hamburger.png";
 import foodCategoryImg02 from "../assets/images/pizza.png";
 import foodCategoryImg03 from "../assets/images/bread.png";
-
 import ProductCard from "../UI/category/ProductCard";
 import whyImg from "../assets/images/location.png";
+import networkImg from "../assets/images/network.png";
+import TestimonialSlider from "../UI/category/TestimonialSlider";
 
 const featureData = [
   {
@@ -130,7 +130,7 @@ const Home = () => {
               <h2 className="feature__title">
                 we will <span>take care</span>
               </h2>
-              <p className="mb-1 mt-4 feature__text">
+              <p className="feature__text mb-1 mt-4 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
                 qui?
               </p>
@@ -141,7 +141,7 @@ const Home = () => {
             </Col>
 
             {featureData.map((item, index) => (
-              <Col lg="4" md="4" key={index} className="mt-5">
+              <Col lg="4" md="6" sm="6" key={index} className="mt-5">
                 <div className="feature__item text-center px-5 py-3">
                   <img
                     src={item.imgUrl}
@@ -162,7 +162,6 @@ const Home = () => {
             <Col lg="12" className="text-center">
               <h2>Popular foods</h2>
             </Col>
-
             <Col lg="12">
               <div className="food__category d-flex align-items-center justify-content-center gap-4">
                 <button
@@ -204,14 +203,14 @@ const Home = () => {
             </Col>
 
             {allProducts.map((item) => (
-              <Col lg="3" md="4" key={item.id} className="mt-5">
+              <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mt-5">
                 <ProductCard item={item} />
               </Col>
             ))}
           </Row>
         </Container>
       </section>
-      <section>
+      <section className="why__choose-us">
         <Container>
           <Row>
             <Col lg="6" md="6">
@@ -276,6 +275,30 @@ const Home = () => {
                 <ProductCard item={item} />
               </Col>
             ))}
+          </Row>
+        </Container>
+      </section>
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="6" md="6">
+              <div className="testimonial ">
+                <h5 className="testimonial__subtitle mb-4">Testimonial</h5>
+                <h2 className="testimonial__title mb-4">
+                  What our <span>customer</span> are saying
+                </h2>
+                <p className="testimonial__desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Placeat nesciunt aperiam porro vero officia numquam eligendi
+                  cupiditate facere nemo velit.
+                </p>
+                <TestimonialSlider />
+              </div>
+            </Col>
+            <Col lg="6" md="6">
+              <img src={networkImg} alt="testimonial-img" className="w-100" />
+            </Col>
           </Row>
         </Container>
       </section>
