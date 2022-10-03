@@ -23,7 +23,7 @@
   "homepage": "https://carolionne.github.io/Food-delivery/",
   
   "scripts": {
-    "deploy": "gh-pages -d src", 
+    "deploy": "gh-pages -d REACT-FOOD-DELIVERY-APP", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
