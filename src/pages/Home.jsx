@@ -4,7 +4,7 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import heroImg from "../assets/images/hero.png";
 import "../styles/hero-section.css";
 import { Link } from "react-router-dom";
-import Category from "../UI/category/Category";
+import Category from "../UI/Category";
 import "../styles/home.css";
 import featuresImg01 from "../assets/images/service-01.png";
 import featuresImg02 from "../assets/images/service-02.png";
@@ -13,10 +13,10 @@ import products from "../assets/fake-data/products";
 import foodCategoryImg01 from "../assets/images/hamburger.png";
 import foodCategoryImg02 from "../assets/images/pizza.png";
 import foodCategoryImg03 from "../assets/images/bread.png";
-import ProductCard from "../UI/category/ProductCard";
+import ProductCard from "../UI/ProductCard";
 import whyImg from "../assets/images/location.png";
 import networkImg from "../assets/images/network.png";
-import TestimonialSlider from "../UI/category/TestimonialSlider";
+import TestimonialSlider from "../UI/TestimonialSlider";
 
 const featureData = [
   {
