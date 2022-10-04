@@ -43,19 +43,12 @@ const cartSlice = createSlice({
       const existingItem = state.cartItems.find((item) => item.id === id);
       state.totalQuantity--;
       if (existingItem.quantity === 1) {
-        console.log("true");
-        console.log(existingItem);
-        console.log(existingItem.quantity);
-        //// ici bug
-        state.cartItems.filter((item) => item.id !== id);
-        state.cartItems.filter((item) => item.id !== id);
+        state.cartItems = state.cartItems.filter((item) => item.id !== id);
       } else {
-        console.log("else");
         existingItem.quantity--;
         existingItem.totalPrice =
           Number(existingItem.totalPrice) - Number(existingItem.price);
       }
-      console.log(".........", state.cartItems);
       state.totalAmount = state.cartItems.reduce(
         (total, item) => total + Number(item.price) * Number(item.quantity),
         0
@@ -67,10 +60,8 @@ const cartSlice = createSlice({
     deleteItem(state, action) {
       const id = action.payload;
       const existingItem = state.cartItems.find((item) => item.id === id);
-      console.log("existingItem delete :", existingItem);
-      console.log("state :", state.cartItems);
       if (existingItem) {
-        state.cartItems.filter((item) => item.id !== id);
+        state.cartItems = state.cartItems.filter((item) => item.id !== id);
         state.totalQuantity = state.totalQuantity - existingItem.quantity;
       }
       state.totalAmount = state.cartItems.reduce(
