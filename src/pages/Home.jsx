@@ -289,9 +289,7 @@ const Home = () => {
                   What our <span>customer</span> are saying
                 </h2>
                 <p className="testimonial__desc">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Placeat nesciunt aperiam porro vero officia numquam eligendi
-                  cupiditate facere nemo velit.
+                  The opinions of our consumers are straightforward
                 </p>
                 <TestimonialSlider />
               </div>

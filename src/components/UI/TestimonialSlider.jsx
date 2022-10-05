@@ -21,9 +21,11 @@ const TestimonialSlider = () => {
     <Slider {...settings}>
       <div>
         <p className="review__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus est earum neque, molestiae iste a hic in sed mollitia
-          deleniti!
+          Warm restaurant, enthusiastic and professional team. Fast service and
+          excellent product quality. We came at 7 p.m. without a reservation and
+          we shouldn't have come later, the restaurant was already almost full!
+          The welcome was very pleasant and the owner quickly put us at ease.
+          The evening was perfect.
         </p>
         <div className="slider__content d-flex align-items-center gap-3">
           <img src={ava01} alt="avatar" className="rounded" />
@@ -32,9 +34,8 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className="review__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus est earum neque, molestiae iste a hic in sed mollitia
-          deleniti!
+          Super restaurant fast and friendly service the burgers and desserts
+          are excellent everything is homemade... nothing to complain about
         </p>
         <div className="slider__content d-flex align-items-center gap-3">
           <img src={ava02} alt="avatar" className="rounded" />
@@ -43,9 +44,10 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className="review__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus est earum neque, molestiae iste a hic in sed mollitia
-          deleniti!
+          Not the first time we come Never disappointed. The burgers are
+          excellent both from a taste point of view and ecological considering
+          the foods which are all perfect. The servers are on top, the boss also
+          everything is perfect in one word. (Special mention for the ketchup)
         </p>
         <div className="slider__content d-flex align-items-center gap-3">
           <img src={ava03} alt="avatar" className="rounded" />
