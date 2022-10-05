@@ -2,9 +2,9 @@ import React from "react";
 import { ListGroup } from "reactstrap";
 import { Link } from "react-router-dom";
 import CartItem from "./CartItem";
-import "../../styles/shopping-cart.css";
+import "../../../styles/shopping-cart.css";
 import { useDispatch, useSelector } from "react-redux";
-import { cartUiActions } from "../../store/shopping-cart/cardUiSlice";
+import { cartUiActions } from "../../../store/shopping-cart/cardUiSlice";
 
 const Carts = () => {
   const dispatch = useDispatch();
