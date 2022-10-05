@@ -35,6 +35,7 @@ const FoodDetails = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
+    console.log(enteredName, enteredEmail, reviewMsg);
   };
   useEffect(() => {
     setPreviewImg(product.image01);
@@ -112,22 +113,23 @@ const FoodDetails = () => {
                   <p>{desc}</p>
                 </div>
               ) : (
-                <div className="tab__form mb-3">
-                  <div className="review pt-5">
-                    <p className="user__name mb-0">John Doe</p>
-                    <p className="user__email">jhon@gmail.com</p>
-                    <p className="feedback__text">great product</p>
-                  </div>
-
-                  <div className="review ">
-                    <p className="user__name mb-0">John Doe</p>
-                    <p className="user__email">jhon@gmail.com</p>
-                    <p className="feedback__text">great product</p>
-                  </div>
-                  <div className="review">
-                    <p className="user__name mb-0">John Doe</p>
-                    <p className="user__email">jhon@gmail.com</p>
-                    <p className="feedback__text">great product</p>
+                <div className="tab__form ">
+                  <div className="review__group mb-3 pt-3">
+                    <div className="review ">
+                      <p className="user__name mb-0">John Doe</p>
+                      <p className="user__email">jhon@gmail.com</p>
+                      <p className="feedback__text">Great product</p>
+                    </div>
+                    <div className="review ">
+                      <p className="user__name mb-0">Mitchell Blake</p>
+                      <p className="user__email">Mictch.Bn@live.fr</p>
+                      <p className="feedback__text">Good quality</p>
+                    </div>
+                    <div className="review">
+                      <p className="user__name mb-0">Steven Crock</p>
+                      <p className="user__email">Crock.v@contact.com</p>
+                      <p className="feedback__text">Love his Burger</p>
+                    </div>
                   </div>
 
                   <form className="form" onSubmit={submitHandler}>
