@@ -121,9 +121,6 @@
     display: flex;
     flex-direction: row;
   }
-  /* .img__item{
-    margin-bottom: 20px;
-  } */
   .product__main-img {
     margin-bottom: 20px;
   }
