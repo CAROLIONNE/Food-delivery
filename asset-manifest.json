@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Food-delivery/static/css/main.d64077ea.chunk.css",
-    "main.js": "/Food-delivery/static/js/main.7582876e.chunk.js",
-    "main.js.map": "/Food-delivery/static/js/main.7582876e.chunk.js.map",
+    "main.css": "/Food-delivery/static/css/main.8567a37e.chunk.css",
+    "main.js": "/Food-delivery/static/js/main.6d9c2cab.chunk.js",
+    "main.js.map": "/Food-delivery/static/js/main.6d9c2cab.chunk.js.map",
     "runtime-main.js": "/Food-delivery/static/js/runtime-main.57959d73.js",
     "runtime-main.js.map": "/Food-delivery/static/js/runtime-main.57959d73.js.map",
     "static/css/2.2ba5c0dc.chunk.css": "/Food-delivery/static/css/2.2ba5c0dc.chunk.css",
-    "static/js/2.e5ef6b38.chunk.js": "/Food-delivery/static/js/2.e5ef6b38.chunk.js",
-    "static/js/2.e5ef6b38.chunk.js.map": "/Food-delivery/static/js/2.e5ef6b38.chunk.js.map",
+    "static/js/2.ff0e10ce.chunk.js": "/Food-delivery/static/js/2.ff0e10ce.chunk.js",
+    "static/js/2.ff0e10ce.chunk.js.map": "/Food-delivery/static/js/2.ff0e10ce.chunk.js.map",
     "index.html": "/Food-delivery/index.html",
     "static/css/2.2ba5c0dc.chunk.css.map": "/Food-delivery/static/css/2.2ba5c0dc.chunk.css.map",
-    "static/css/main.d64077ea.chunk.css.map": "/Food-delivery/static/css/main.d64077ea.chunk.css.map",
-    "static/js/2.e5ef6b38.chunk.js.LICENSE.txt": "/Food-delivery/static/js/2.e5ef6b38.chunk.js.LICENSE.txt",
+    "static/css/main.8567a37e.chunk.css.map": "/Food-delivery/static/css/main.8567a37e.chunk.css.map",
+    "static/js/2.ff0e10ce.chunk.js.LICENSE.txt": "/Food-delivery/static/js/2.ff0e10ce.chunk.js.LICENSE.txt",
     "static/media/ava-1.c185d772.jpg": "/Food-delivery/static/media/ava-1.c185d772.jpg",
     "static/media/ava-2.11e918c6.jpg": "/Food-delivery/static/media/ava-2.11e918c6.jpg",
     "static/media/ava-3.14420750.jpg": "/Food-delivery/static/media/ava-3.14420750.jpg",
+    "static/media/common-section.css": "/Food-delivery/static/media/banner-02.1d3252d3.jpg",
     "static/media/bread(1).2fbb5c91.png": "/Food-delivery/static/media/bread(1).2fbb5c91.png",
     "static/media/bread(2).dd485726.png": "/Food-delivery/static/media/bread(2).dd485726.png",
     "static/media/bread(3).e4b9fdd9.png": "/Food-delivery/static/media/bread(3).e4b9fdd9.png",
@@ -43,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.57959d73.js",
     "static/css/2.2ba5c0dc.chunk.css",
-    "static/js/2.e5ef6b38.chunk.js",
-    "static/css/main.d64077ea.chunk.css",
-    "static/js/main.7582876e.chunk.js"
+    "static/js/2.ff0e10ce.chunk.js",
+    "static/css/main.8567a37e.chunk.css",
+    "static/js/main.6d9c2cab.chunk.js"
   ]
 }
