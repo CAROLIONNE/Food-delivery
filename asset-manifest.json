@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Food-delivery/static/css/main.f6fb8d6e.chunk.css",
-    "main.js": "/Food-delivery/static/js/main.a1ea4fa0.chunk.js",
-    "main.js.map": "/Food-delivery/static/js/main.a1ea4fa0.chunk.js.map",
+    "main.js": "/Food-delivery/static/js/main.8fd32782.chunk.js",
+    "main.js.map": "/Food-delivery/static/js/main.8fd32782.chunk.js.map",
     "runtime-main.js": "/Food-delivery/static/js/runtime-main.57959d73.js",
     "runtime-main.js.map": "/Food-delivery/static/js/runtime-main.57959d73.js.map",
     "static/css/2.2ba5c0dc.chunk.css": "/Food-delivery/static/css/2.2ba5c0dc.chunk.css",
@@ -46,6 +46,6 @@
     "static/css/2.2ba5c0dc.chunk.css",
     "static/js/2.9fb9a9c4.chunk.js",
     "static/css/main.f6fb8d6e.chunk.css",
-    "static/js/main.a1ea4fa0.chunk.js"
+    "static/js/main.8fd32782.chunk.js"
   ]
 }
